@@ -1,0 +1,7 @@
+C:\Users\ksrin\Documents\TINFO200\Cs3Apps\Elimination\bin\Release\Elimination.exe.config
+C:\Users\ksrin\Documents\TINFO200\Cs3Apps\Elimination\bin\Release\Elimination.exe
+C:\Users\ksrin\Documents\TINFO200\Cs3Apps\Elimination\bin\Release\Elimination.pdb
+C:\Users\ksrin\Documents\TINFO200\Cs3Apps\Elimination\obj\Release\Elimination.csproj.SuggestedBindingRedirects.cache
+C:\Users\ksrin\Documents\TINFO200\Cs3Apps\Elimination\obj\Release\Elimination.csproj.CoreCompileInputs.cache
+C:\Users\ksrin\Documents\TINFO200\Cs3Apps\Elimination\obj\Release\Elimination.exe
+C:\Users\ksrin\Documents\TINFO200\Cs3Apps\Elimination\obj\Release\Elimination.pdb

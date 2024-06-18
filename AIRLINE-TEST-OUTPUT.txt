@@ -1,0 +1,929 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220312193233
+Username: KYLE-PC\ksrin
+RunAs User: KYLE-PC\ksrin
+Configuration Name: 
+Machine: KYLE-PC (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command & { Import-Module 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell -SetDefaultWindowTitle -InstallPath 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise' -StartInPath 'C:\Users\ksrin\Documents\TINFO200\Cs3Apps' }
+Process ID: 10380
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is AIRLINE-TEST-OUTPUT.txt
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Debug\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True True False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Debug\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Debug\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True False False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True False False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True True True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Debug\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True True False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Debug\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True False False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True True False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True True True False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True True True True False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Debug\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 22
+That was not an appropriate input.
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True True True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: n
+Next flight leaves in 3 hours.
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Debug\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: n
+Next flight leaves in 3 hours.
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Debug\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 4
+That was not an appropriate input.
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 3
+Now exiting the program.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Release\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True True False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Release\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Release\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True True False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Release\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True False False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True True False False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True True True False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True True True True False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Release\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True False False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True False False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True True True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: n
+Next flight leaves in 3 hours.
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True True True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+First class is full, would it be acceptable to give the customer a seat in the economy class?
+Please answer Y for yes and N for no: y
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Release\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+False False False False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False True True True True False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True False False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: n
+Next flight leaves in 3 hours.
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+The economy class is full, would it be acceptable to give the customer a seat in first class?
+Please answer Y for yes and N for no: y
+True True True True True True True True True True
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+This flight is at maximum occupancy, the next flight leaves in 3 hours.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Airline\bin\Release\Airline.exe
+
+Welcome to the AirLine app! This app will assign seats on the airline's
+plane with a capacity of 10 seats based on your inputs. At the start of
+the program the initial seating chart will be displayed with false values
+representing available seats and true values representing occupied seats.
+
+You will be prompted to either enter a 1 to assign a seat in first class,
+a 2 to assign a seat in economy class, or a 3 to exit the program if the
+plane needs to stay on schedule and depart without being full. After every
+seat assignment the new seating chart will be output back to you.
+
+If the first class or economy sections are full you will be prompted to ask
+the customer if it is acceptable to assign them a seat in the opposite class.
+If so, a seat in the respective class will be assigned. If no, a statement
+saying when the next flight departs will be output and the program will
+continue running to account for following customers.
+
+When all seats are occupied the program will output a statement of when
+the next flight departs and the program exits.
+
+Initial seating chart:
+False False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 4
+That was not an appropriate input.
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True False False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True False False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True False False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 1
+True True True True False False False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 12
+That was not an appropriate input.
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True False True False False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 2
+True True True True False True True False False False
+
+Please enter 1 for First Class, 2 for Economy, or 3 to exit: 3
+Now exiting the program.
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20220312193620
+**********************

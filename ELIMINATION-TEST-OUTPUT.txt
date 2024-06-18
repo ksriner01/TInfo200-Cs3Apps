@@ -1,0 +1,189 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220312152235
+Username: KYLE-PC\ksrin
+RunAs User: KYLE-PC\ksrin
+Configuration Name: 
+Machine: KYLE-PC (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command & { Import-Module 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell -SetDefaultWindowTitle -InstallPath 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise' -StartInPath 'C:\Users\ksrin\Documents\TINFO200\Cs3Apps' }
+Process ID: 6652
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ELIMINATION-TEST-OUTPUT.txt
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+
+Welcome to the Elimination app! This app will prompt you for 5
+whole numbers between 10 and 100 inclusive. The number you enter
+will be displayed so long as it is not a duplicate of a number
+you have already inputted.
+
+Please enter a whole number between 10 and 100 inclusive: 10
+10
+Please enter a whole number between 10 and 100 inclusive: 24
+10 24
+Please enter a whole number between 10 and 100 inclusive: 25
+10 24 25
+Please enter a whole number between 10 and 100 inclusive: 36
+10 24 25 36
+Please enter a whole number between 10 and 100 inclusive: 100
+10 24 25 36 100
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+
+Welcome to the Elimination app! This app will prompt you for 5
+whole numbers between 10 and 100 inclusive. The number you enter
+will be displayed so long as it is not a duplicate of a number
+you have already inputted.
+
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 12
+11 12
+Please enter a whole number between 10 and 100 inclusive: 13
+11 12 13
+Please enter a whole number between 10 and 100 inclusive: 14
+11 12 13 14
+Please enter a whole number between 10 and 100 inclusive: 12
+11 12 13 14
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+
+Welcome to the Elimination app! This app will prompt you for 5
+whole numbers between 10 and 100 inclusive. The number you enter
+will be displayed so long as it is not a duplicate of a number
+you have already inputted.
+
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 12
+11 12
+Please enter a whole number between 10 and 100 inclusive: 11
+11 12
+Please enter a whole number between 10 and 100 inclusive: 13
+11 12 13
+Please enter a whole number between 10 and 100 inclusive: 12
+11 12 13
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+
+Welcome to the Elimination app! This app will prompt you for 5
+whole numbers between 10 and 100 inclusive. The number you enter
+will be displayed so long as it is not a duplicate of a number
+you have already inputted.
+
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+
+Welcome to the Elimination app! This app will prompt you for 5
+whole numbers between 10 and 100 inclusive. The number you enter
+will be displayed so long as it is not a duplicate of a number
+you have already inputted.
+
+Please enter a whole number between 10 and 100 inclusive: 12
+12
+Please enter a whole number between 10 and 100 inclusive: 13
+12 13
+Please enter a whole number between 10 and 100 inclusive: 64
+12 13 64
+Please enter a whole number between 10 and 100 inclusive: 120
+That number was not in the specified range.
+12 13 64
+Please enter a whole number between 10 and 100 inclusive: 13
+12 13 64
+Please enter a whole number between 10 and 100 inclusive: 456
+That number was not in the specified range.
+12 13 64
+Please enter a whole number between 10 and 100 inclusive: 46
+12 13 64 46
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Elimination\bin\Release\Elimination.exe
+
+Welcome to the Elimination app! This app will prompt you for 5
+whole numbers between 10 and 100 inclusive. The number you enter
+will be displayed so long as it is not a duplicate of a number
+you have already inputted.
+
+Please enter a whole number between 10 and 100 inclusive: 10
+10
+Please enter a whole number between 10 and 100 inclusive: 42
+10 42
+Please enter a whole number between 10 and 100 inclusive: 12
+10 42 12
+Please enter a whole number between 10 and 100 inclusive: 93
+10 42 12 93
+Please enter a whole number between 10 and 100 inclusive: 100
+10 42 12 93 100
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Elimination\bin\Release\Elimination.exe
+
+Welcome to the Elimination app! This app will prompt you for 5
+whole numbers between 10 and 100 inclusive. The number you enter
+will be displayed so long as it is not a duplicate of a number
+you have already inputted.
+
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 14
+11 14
+Please enter a whole number between 10 and 100 inclusive: 45
+11 14 45
+Please enter a whole number between 10 and 100 inclusive: 45
+11 14 45
+Please enter a whole number between 10 and 100 inclusive: 13
+11 14 45 13
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Elimination\bin\Release\Elimination.exe
+
+Welcome to the Elimination app! This app will prompt you for 5
+whole numbers between 10 and 100 inclusive. The number you enter
+will be displayed so long as it is not a duplicate of a number
+you have already inputted.
+
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+Please enter a whole number between 10 and 100 inclusive: 11
+11
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> .\Elimination\bin\Release\Elimination.exe
+
+Welcome to the Elimination app! This app will prompt you for 5
+whole numbers between 10 and 100 inclusive. The number you enter
+will be displayed so long as it is not a duplicate of a number
+you have already inputted.
+
+Please enter a whole number between 10 and 100 inclusive: 1
+That number was not in the specified range.
+
+Please enter a whole number between 10 and 100 inclusive: 13
+13
+Please enter a whole number between 10 and 100 inclusive: 14
+13 14
+Please enter a whole number between 10 and 100 inclusive: 15
+13 14 15
+Please enter a whole number between 10 and 100 inclusive: 20
+13 14 15 20
+Please enter a whole number between 10 and 100 inclusive: 203
+That number was not in the specified range.
+13 14 15 20
+Please enter a whole number between 10 and 100 inclusive: 23
+13 14 15 20 23
+PS C:\Users\ksrin\Documents\TINFO200\Cs3Apps> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20220312152529
+**********************
